@@ -1,0 +1,9 @@
+# Ignore system-specific files
+.vscode/
+
+# Ignore Tauri build artifacts
+src-tauri/target/
+src-tauri/.cargo/
+
+# Ignore backup files
+**/*.rs.bk
